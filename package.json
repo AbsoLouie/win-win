@@ -4,6 +4,7 @@
   "description": "Score keeping app written with Electron and WebRTC",
   "main": "main.js",
   "scripts": {
+    "start": "./node_modules/.bin/electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/louiedp3/win-win/issues"
   },
-  "homepage": "https://github.com/louiedp3/win-win#readme"
+  "homepage": "https://github.com/louiedp3/win-win#readme",
+  "devDependencies": {
+    "electron-prebuilt-compile": "^1.2.2"
+  }
 }
